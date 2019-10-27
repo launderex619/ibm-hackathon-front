@@ -9,11 +9,13 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material-module';
 
+
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    
   ],
   imports: [
     AngularMaterialModule,
@@ -21,6 +23,7 @@ import { AngularMaterialModule } from './angular-material-module';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

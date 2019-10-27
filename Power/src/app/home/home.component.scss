@@ -39,7 +39,10 @@ table {
 }
 
 .mat-form-field {
-  width: 100%;
   font-size: 14px;
-  padding: 50px;
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
 }
